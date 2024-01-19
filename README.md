@@ -38,3 +38,25 @@ This project implements a Sliding Tile Puzzle Solver using various algorithms an
 
    ```bash
    git clone https://github.com/yourusername/sliding-tile-puzzle-solver.git
+
+2. cd sliding-tile-puzzle-solver
+
+3. python sliding_tile_solver.py
+
+## Algorithms
+Backtracking: Explores possible state transitions within a specified depth bound.
+Uniform Cost Search (UCS): Finds the optimal path using cost-based exploration.
+A Search:* Uses heuristics for informed search, including misplaced tiles and Manhattan distance.
+## Heuristics
+Misplaced Tiles: Counts the number of tiles in the wrong position compared to the goal state.
+Manhattan Distance: Calculates the sum of the distances of each tile to its goal position.
+## Code Structure
+sliding_tile_solver.py: Main script containing the SlidingTilePuzzle class and the algorithms.
+problem-1.json: Sample JSON file containing puzzle configuration.
+## How to Run
+Ensure you have Python installed.
+
+Clone the repository and navigate to the project directory.
+
+Run the solver script:
+python sliding_tile_solver.py
